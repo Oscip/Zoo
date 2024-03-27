@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oscar is the 🐐</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="index_style.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="Images/Jurassic_Park_Zoo_Logo.jpeg" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-black">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a id="homeLink" class="nav-link active" aria-current="page" href="Index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a id="aboutLink" class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a id="animalsLink" class="nav-link" href="Animals.html">Animals</a>
+            </li>
+            <li class="nav-item">
+              <a id="contactLink" class="nav-link" href="Contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                English
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#" onclick="changeLanguage('english')">English</a></li>
+                <li><a class="dropdown-item" href="#" onclick="changeLanguage('french')">Français</a></li>
+                <li><a class="dropdown-item" href="#" onclick="changeLanguage('german')">Deutsch</a></li>
+                <li><a class="dropdown-item" href="#" onclick="changeLanguage('spanish')">Español</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section>
+
+    <div class="overlay">
+      <h1 id="zooTitle">Zoo Jurassic Park</h1>
+    </div>
+  </section>
+  <img id="Entrance_Image" src="Images/Jurassic_Park_Zoo_Entrance.jpeg" alt="The Image is not possible to display.">
+  <h1 id="Activity_Title">Activities</h1>
+  <section class="recently" id="recently">
+    <div class="card" style="width: 18rem;">
+      <img src="Images/Jurassic_Park_Zoo_Activity_1.jpg" class="card-img-top" alt="This Photo is not available.">
+      <div class="card-body">
+        <p id="activityText1" class="card-text">Our Triceratops got hurt today and our infirmary went on to help our
+          animal. She
+          had a twisted ankle but now it's fixed and it'll be healed in a few weeks.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="Images/Jurassic_Park_Zoo_Activity_2.jpg" class="card-img-top" alt="This Photo is not available.">
+      <div class="card-body">
+        <p id="activityText2" class="card-text">At Jurassic Park's new Aqua Park, the daily highlight is a mesmerizing
+          aquatic show loved by both Jurassic animals and spectators—a must-see attraction for all visitors.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="Images/Jurassic_Park_Zoo_Activity_3.jpg" class="card-img-top" alt="This Photo is not available.">
+      <div class="card-body">
+        <p id="activityText3" class="card-text">At Jurassic Park Zoo, veterinarians train Jurassic animals for safe
+          interaction, fostering
+          harmony between creatures and visitors.</p>
+      </div>
+    </div>
+  </section>
+  <section class="recently" id="recently2">
+    <div class="card" style="width: 18rem;">
+      <img src="Images/Jurassic_Park_Zoo_Activity_4.jpg" class="card-img-top" alt="This Photo is not available.">
+      <div class="card-body">
+        <p id="activityText1" class="card-text">Our Triceratops got hurt today and our infirmary went on to help our
+          animal. She
+          had a twisted ankle but now it's fixed and it'll be healed in a few weeks.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="Images/Jurassic_Park_Zoo_Activity_5.jpg" class="card-img-top" alt="This Photo is not available.">
+      <div class="card-body">
+        <p id="activityText2" class="card-text">At Jurassic Park's new Aqua Park, the daily highlight is a mesmerizing
+          aquatic show loved by both Jurassic animals and spectators—a must-see attraction for all visitors.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="Images/Jurassic_Park_Zoo_Activity_6.jpg" class="card-img-top" alt="This Photo is not available.">
+      <div class="card-body">
+        <p id="activityText3" class="card-text">At Jurassic Park Zoo, veterinarians train Jurassic animals for safe
+          interaction, fostering
+          harmony between creatures and visitors.</p>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <script src="index_animation.js"></script>
+  <script src="index_translation.js"></script>
+  <footer>
+    <div class="card">
+      <div class="card-body">
+        <h3>Zoo Departement</h3>
+        <p><strong>Opening hours:</strong> 8am - 8pm</p>
+        <p><strong>Email:</strong><a href="mailto:JurassicParkZoo@gmail.com"> Zoo@JurassicParkZoo.com</a></p>
+        <p><strong>Phone Number:</strong><a href="tel:077 432 32 50"> 077 432 32 50</a></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h3>Activity Departement</h3>
+        <p><strong>Activity hours:</strong></p>
+        <ul>
+          <li> 10am - 11am</li>
+          <li> 1pm - 2pm</li>
+          <li> 4pm - 5pm</li>
+        </ul>
+        <p><strong>Email:</strong><a href="mailto:Activity@JurassicParkZoo.com"> Activity@JurassicParkZoo.com</a></p>
+        <p><strong>Phone Number:</strong><a href="tel:077 432 32 51"> 077 432 32 51</a></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h3>Veterinarian Centre</h3>
+        <p><strong>Opening hours:</strong> 10am - 5pm</p>
+        <p><strong>Email:</strong><a href="mailto:Veterinarian@JurassicParkZoo.com"> Veterinarian@JurassicParkZoo.com</a></p>
+        <p><strong>Phone Number:</strong><a href="tel:077 432 32 52"> 077 432 32 52</a></p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h3>Child Care</h3>
+        <p><strong>Opening hours:</strong> 9am - 6pm</p>
+        <p><strong>Email:</strong><a href="mailto:ChildCare@JurassicParkZoo.com"> ChildCare@JurassicParkZoo.com</a></p>
+        <p><strong>Phone Number:</strong><a href="tel:077 432 32 53"> 077 432 32 53</a></p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+
+<!--Change the footer so that it doesnt interfere with the footer so the opening hours dont move over -->

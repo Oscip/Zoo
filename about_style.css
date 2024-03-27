@@ -1,0 +1,175 @@
+header {
+    background-color: black;
+    /* Set opacity for the navbar */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Ensure the navbar is above other content */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    opacity: 0.95;
+    /* slight opacity */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.history,
+.description {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.description {
+    margin-top: 5%;
+}
+
+.history.show,
+.description.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#stocktitle {
+    color: #ffffff;
+}
+
+.history p, .description p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+
+
+.recently .card {
+    max-height: 40%;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+}
+
+footer {
+    background-color: #5da7f1;
+    color: #ffffff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .card {
+    width: 350px;
+    margin: 10px;
+    /* Add some margin for separation */
+    border-radius: 10px;
+    /* Add rounded corners for visual appeal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add shadow for depth */
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+footer .card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+.card a {
+    color: #3888ff;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/*Navbar Configuration*/
+.nav-link {
+    color: white !important;
+}
+
+.navbar-nav {
+    display: flex;
+    /* Use Flexbox */
+    justify-content: space-between;
+    /* Evenly space the items */
+    width: 100%;
+    /* Ensure the navbar items span the entire width */
+}
+
+.nav-item {
+    width: 23%;
+    /* Set a fixed width for each navbar item */
+    text-align: center;
+    /* Center-align the text */
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+}
+
+
+.dropdown-menu {
+    margin: 35%;
+    min-width: auto;
+}
+
+.dropdown-item {
+    width: auto;
+    white-space: nowrap;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+
+#stock-chart {
+    margin-top: 50px;
+}
