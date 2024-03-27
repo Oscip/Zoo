@@ -36,6 +36,18 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Maps */
+#div-map {
+    display: flex;
+    justify-content: center;
+
+}
+
+#map {
+    border-radius: 2em;
+    margin-bottom: 2em;
+}
+
 .container {
     max-width: 800px;
     margin: 20px auto;
