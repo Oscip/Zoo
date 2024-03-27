@@ -57,48 +57,25 @@
     <main>
         <div class="container">
             <div class="description" id="description">
-                <h2>About</h2>
-                <p>Nestled on the lush, tropical island of Isla Nublar, Jurassic Park Zoo offers visitors
-                    a once-in-a-lifetime opportunity to journey back in time and witness the awe-inspiring majesty of
-                    dinosaurs firsthand.
-
-                    Spanning vast acres of meticulously recreated habitats, the zoo is home to a diverse array of
-                    prehistoric creatures, from towering sauropods to agile predators. Guests can explore themed areas
-                    such as the Cretaceous Canyon, where they can observe herds of Triceratops grazing peacefully, or
-                    the Raptor Ravine, where they can come face-to-face with the fearsome Velociraptors.
-
-                    State-of-the-art facilities ensure the safety and comfort of both guests and inhabitants, with
-                    expert staff on hand to provide educational insights and ensure a memorable experience for visitors
-                    of all ages. Interactive exhibits allow guests to learn about the science behind dinosaur cloning
-                    and genetic engineering, as well as the importance of conservation efforts to protect endangered
-                    species in the modern world.
-
-                    Whether marveling at the sheer size of a Brachiosaurus or witnessing the ferocious power of a
-                    Tyrannosaurus rex, a visit to Jurassic Park Zoo promises an unforgettable adventure into the past,
-                    where the wonders of the ancient world come to life once more.</p>
+                <h2 id="aboutTitle">About</h2>
+                <p id="aboutText">At Jurassic Park, visitors can embark on a journey through time to experience the
+                    wonders of the Mesozoic Era. From towering Brachiosaurus to fearsome Tyrannosaurus rex, our park
+                    offers an unparalleled opportunity to witness these ancient creatures in a safe and controlled
+                    environment. With state-of-the-art facilities and expert staff, Jurassic Park is committed to
+                    providing an unforgettable experience for guests of all ages. Join us as we explore the mysteries of
+                    the past and discover the awe-inspiring world of dinosaurs.</p>
             </div>
             <div class="history" id="history">
-                <h2>History</h2>
-                <p>Jurassic Park Zoo traces its origins back to the visionary efforts of Dr. John
-                    Hammond, a wealthy entrepreneur and paleontologist. Inspired by the discovery of ancient DNA
-                    preserved in amber, Dr. Hammond conceived the idea of bringing extinct species back to life through
-                    advanced genetic engineering techniques.
-
-                    In 1985, Dr. Hammond founded InGen Corporation with the goal of realizing his dream. After years of
-                    research and development, InGen successfully cloned a variety of dinosaurs, laying the groundwork
-                    for what would become Jurassic Park Zoo.
-
-                    In 1993, Jurassic Park Zoo officially opened its doors on Isla Nublar, a remote island off the coast
-                    of Costa Rica. The zoo quickly gained worldwide attention for its groundbreaking exhibits featuring
-                    living dinosaurs, including iconic species such as Tyrannosaurus rex, Velociraptors, and
-                    Brachiosaurus.
-
-                    However, the park's grand opening was marred by a series of incidents, culminating in a catastrophic
-                    dinosaur outbreak that resulted in multiple casualties and the eventual abandonment of the island.
-
-                    Despite these setbacks, the legacy of Jurassic Park Zoo endured, inspiring further research and
-                    exploration into the possibilities of resurrecting extinct species and redefining the boundaries of
-                    zoological conservation.</p>
+                <h2 id="historyTitle">History</h2>
+                <p id="historyText">Jurassic Park is a theme park and dinosaur attraction located on Isla Nublar, a
+                    fictional island off the coast of Costa Rica. Founded by billionaire philanthropist John Hammond,
+                    the park was designed to showcase genetically engineered dinosaurs cloned from prehistoric DNA.";
+                    var englishAbout = "At Jurassic Park, visitors can embark on a journey through time to experience
+                    the wonders of the Mesozoic Era. From towering Brachiosaurus to fearsome Tyrannosaurus rex, our park
+                    offers an unparalleled opportunity to witness these ancient creatures in a safe and controlled
+                    environment. With state-of-the-art facilities and expert staff, Jurassic Park is committed to
+                    providing an unforgettable experience for guests of all ages. Join us as we explore the mysteries of
+                    the past and discover the awe-inspiring world of dinosaurs.</p>
             </div>
         </div>
         <section id="stock-chart">
@@ -136,7 +113,7 @@
     <footer>
         <div class="card">
             <div class="card-body">
-                <h3>Zoo Departement</h3>
+                <h3>Zoo Department</h3>
                 <p><strong>Opening hours:</strong> 8am - 8pm</p>
                 <p><strong>Email:</strong><a href="mailto:JurassicParkZoo@gmail.com"> Zoo@JurassicParkZoo.com</a></p>
                 <p><strong>Phone Number:</strong><a href="tel:077 432 32 50"> 077 432 32 50</a></p>
@@ -144,7 +121,7 @@
         </div>
         <div class="card">
             <div class="card-body">
-                <h3>Activity Departement</h3>
+                <h3>Activity Department</h3>
                 <p><strong>Activity hours:</strong></p>
                 <ul>
                     <li> 10am - 11am</li>
@@ -168,10 +145,12 @@
         <div class="card">
             <div class="card-body">
                 <h3>Child Care</h3>
-                <p><strong>Opening hours:</strong> 9am - 6pm</p>
+                <p><strong>Opening hours:</strong>
                 <p><strong>Email:</strong><a href="mailto:ChildCare@JurassicParkZoo.com">
                         ChildCare@JurassicParkZoo.com</a></p>
-                <p><strong>Phone Number:</strong><a href="tel:077 432 32 53"> 077 432
+                <p><strong>Phone Number:</strong><a href="tel:077 432 32 53"> 077 432 32 53</a></p>
+            </div>
+        </div>
     </footer>
     <script src="about_animation.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -181,9 +160,8 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
     <script>
-        var history = document.getElementById('history');
-        var about = document.getElementById('description');
-        var activityText = document.getElementById('activityText');
+        var historyText = document.getElementById('historyText');
+        var aboutText = document.getElementById('aboutText');
         var homeLink = document.getElementById('homeLink');
         var aboutLink = document.getElementById('aboutLink');
         var animalsLink = document.getElementById('animalsLink');
@@ -235,6 +213,7 @@
             }
         }
     </script>
+
 </body>
 
 </html>
