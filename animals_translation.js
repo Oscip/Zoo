@@ -13,6 +13,24 @@ function changeLanguage(language) {
         aboutLink.innerText = 'About';
         animalsLink.innerText = 'Animals';
         contactLink.innerText = 'Contact';
+
+        // Footer translations
+        document.getElementById('zooDepartmentTitle').innerText = 'Zoo Department';
+        document.getElementById('zooOpeningHoursTitle').innerText = 'Opening hours:';
+        document.getElementById('zooEmailTitle').innerText = 'Email:';
+        document.getElementById('zooPhoneNumberTitle').innerText = 'Phone Number:';
+        document.getElementById('activityDepartmentTitle').innerText = 'Activity Department';
+        document.getElementById('activityHoursTitle').innerText = 'Activity hours:';
+        document.getElementById('activityEmailTitle').innerText = 'Email:';
+        document.getElementById('activityPhoneNumberTitle').innerText = 'Phone Number:';
+        document.getElementById('veterinarianCentreTitle').innerText = 'Veterinarian Centre';
+        document.getElementById('vetOpeningHoursTitle').innerText = 'Opening hours:';
+        document.getElementById('vetEmailTitle').innerText = 'Email:';
+        document.getElementById('vetPhoneNumberTitle').innerText = 'Phone Number:';
+        document.getElementById('childCareTitle').innerText = 'Child Care';
+        document.getElementById('childCareOpeningHoursTitle').innerText = 'Opening hours:';
+        document.getElementById('childCareEmailTitle').innerText = 'Email:';
+        document.getElementById('childCarePhoneNumberTitle').innerText = 'Phone Number:';
         translateAnimalTexts('english');
     } else if (language === 'french') {
         title.innerText = 'Zoo Jurassic Park';
@@ -21,6 +39,23 @@ function changeLanguage(language) {
         aboutLink.innerText = 'À propos';
         animalsLink.innerText = 'Animaux';
         contactLink.innerText = 'Contact';
+        // Footer translations
+        document.getElementById('zooDepartmentTitle').innerText = 'Département du zoo';
+        document.getElementById('zooOpeningHoursTitle').innerText = 'Heures d\'ouverture :';
+        document.getElementById('zooEmailTitle').innerText = 'Email :';
+        document.getElementById('zooPhoneNumberTitle').innerText = 'Numéro de téléphone :';
+        document.getElementById('activityDepartmentTitle').innerText = 'Département d\'activité';
+        document.getElementById('activityHoursTitle').innerText = 'Heures d\'activité :';
+        document.getElementById('activityEmailTitle').innerText = 'Email :';
+        document.getElementById('activityPhoneNumberTitle').innerText = 'Numéro de téléphone :';
+        document.getElementById('veterinarianCentreTitle').innerText = 'Centre vétérinaire';
+        document.getElementById('vetOpeningHoursTitle').innerText = 'Heures d\'ouverture :';
+        document.getElementById('vetEmailTitle').innerText = 'Email :';
+        document.getElementById('vetPhoneNumberTitle').innerText = 'Numéro de téléphone :';
+        document.getElementById('childCareTitle').innerText = 'Garde d\'enfants';
+        document.getElementById('childCareOpeningHoursTitle').innerText = 'Heures d\'ouverture :';
+        document.getElementById('childCareEmailTitle').innerText = 'Email :';
+        document.getElementById('childCarePhoneNumberTitle').innerText = 'Numéro de téléphone :';
         translateAnimalTexts('french');
     } else if (language === 'german') {
         title.innerText = 'Zoo Jurassic Park';
@@ -29,6 +64,23 @@ function changeLanguage(language) {
         aboutLink.innerText = 'Über uns';
         animalsLink.innerText = 'Tiere';
         contactLink.innerText = 'Kontakt';
+        // Footer translations
+        document.getElementById('zooDepartmentTitle').innerText = 'Zooabteilung';
+        document.getElementById('zooOpeningHoursTitle').innerText = 'Öffnungszeiten:';
+        document.getElementById('zooEmailTitle').innerText = 'Email:';
+        document.getElementById('zooPhoneNumberTitle').innerText = 'Telefonnummer:';
+        document.getElementById('activityDepartmentTitle').innerText = 'Aktivitätsabteilung';
+        document.getElementById('activityHoursTitle').innerText = 'Aktivitätszeiten:';
+        document.getElementById('activityEmailTitle').innerText = 'Email:';
+        document.getElementById('activityPhoneNumberTitle').innerText = 'Telefonnummer:';
+        document.getElementById('veterinarianCentreTitle').innerText = 'Tierarztzentrum';
+        document.getElementById('vetOpeningHoursTitle').innerText = 'Öffnungszeiten:';
+        document.getElementById('vetEmailTitle').innerText = 'Email:';
+        document.getElementById('vetPhoneNumberTitle').innerText = 'Telefonnummer:';
+        document.getElementById('childCareTitle').innerText = 'Kinderbetreuung';
+        document.getElementById('childCareOpeningHoursTitle').innerText = 'Öffnungszeiten:';
+        document.getElementById('childCareEmailTitle').innerText = 'Email:';
+        document.getElementById('childCarePhoneNumberTitle').innerText = 'Telefonnummer:';
         translateAnimalTexts('german');
     } else if (language === 'spanish') {
         title.innerText = 'Zoo Jurassic Park';
@@ -37,6 +89,23 @@ function changeLanguage(language) {
         aboutLink.innerText = 'Sobre nosotros';
         animalsLink.innerText = 'Animales';
         contactLink.innerText = 'Contacto';
+        // Footer translations
+        document.getElementById('zooDepartmentTitle').innerText = 'Departamento de Zoológico';
+        document.getElementById('zooOpeningHoursTitle').innerText = 'Horario de apertura:';
+        document.getElementById('zooEmailTitle').innerText = 'Correo electrónico:';
+        document.getElementById('zooPhoneNumberTitle').innerText = 'Número de teléfono:';
+        document.getElementById('activityDepartmentTitle').innerText = 'Departamento de Actividades';
+        document.getElementById('activityHoursTitle').innerText = 'Horario de actividades:';
+        document.getElementById('activityEmailTitle').innerText = 'Correo electrónico:';
+        document.getElementById('activityPhoneNumberTitle').innerText = 'Número de teléfono:';
+        document.getElementById('veterinarianCentreTitle').innerText = 'Centro Veterinario';
+        document.getElementById('vetOpeningHoursTitle').innerText = 'Horario de apertura:';
+        document.getElementById('vetEmailTitle').innerText = 'Correo electrónico:';
+        document.getElementById('vetPhoneNumberTitle').innerText = 'Número de teléfono:';
+        document.getElementById('childCareTitle').innerText = 'Cuidado Infantil';
+        document.getElementById('childCareOpeningHoursTitle').innerText = 'Horario de apertura:';
+        document.getElementById('childCareEmailTitle').innerText = 'Correo electrónico:';
+        document.getElementById('childCarePhoneNumberTitle').innerText = 'Número de teléfono:';
         translateAnimalTexts('spanish');
     }
 }

@@ -1,29 +1,36 @@
+/* Body */
+
+body {
+    background-color: #000000;
+}
+
 /* Text */
 
 #zooTitle {
     margin-top: 3rem;
     text-align: center;
     font-size: 4em;
+    color: #ffffff;
 }
 
 /* Animals Card */
 #animalsline1 .card {
     max-height: 55%;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     border-color: black;
     margin-top: 10%;
 }
 
 #animalsline2 .card {
     max-height: 60%;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     border-color: black;
     margin-top: 10%;
 }
 
 #animalsline3 .card {
     max-height: 65%;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     border-color: black;
     margin-top: 10%;
 }
@@ -54,7 +61,7 @@
 
 
 #animalsline1, #animalsline2, #animalsline3{
-    background-color: #fff;
+    background-color: #000000;
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
@@ -79,7 +86,7 @@
 /* Footer */
 
 footer {
-    background-color: #5da7f1;
+    background-color: #000435;
     color: #ffffff;
     padding: 20px 0;
     display: flex;

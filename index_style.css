@@ -1,6 +1,6 @@
 /* Images */
 header {
-  background-color: rgba(0, 0, 0);
+  background-color: #000435;
   /* Set opacity for the navbar */
   position: fixed;
   top: 0;
@@ -11,7 +11,7 @@ header {
 }
 
 body {
-  background-color: rgb(27, 27, 27);
+  background-color: black;
 }
 
 #recently {
@@ -51,7 +51,7 @@ body {
 }
 
 footer {
-  background-color: #5da7f1;
+  background-color: #000435;
   color: #ffffff;
   padding: 20px 0;
   display: flex;
@@ -161,7 +161,7 @@ footer .card h3 {
 }
 
 .recently {
-  background-color: rgba(27, 27, 27, 0.6);
+  background-color:#000000;
   height: 1000px;
   width: 100%;
   display: flex;

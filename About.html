@@ -113,106 +113,58 @@
     <footer>
         <div class="card">
             <div class="card-body">
-                <h3>Zoo Department</h3>
-                <p><strong>Opening hours:</strong> 8am - 8pm</p>
-                <p><strong>Email:</strong><a href="mailto:JurassicParkZoo@gmail.com"> Zoo@JurassicParkZoo.com</a></p>
-                <p><strong>Phone Number:</strong><a href="tel:077 432 32 50"> 077 432 32 50</a></p>
+                <h3 id="zooDepartmentTitle"><strong>Zoo Department</strong></h3>
+                <p><strong id="zooOpeningHoursTitle">Opening hours:</strong> 8am - 8pm</p>
+                <p><strong id="zooEmailTitle">Email:</strong><a href="mailto:JurassicParkZoo@gmail.com"
+                        id="zooEmailLink"> Zoo@JurassicParkZoo.com</a></p>
+                <p><strong id="zooPhoneNumberTitle">Phone Number:</strong><a href="tel:077 432 32 50"
+                        id="zooPhoneNumberLink"> 077 432 32 50</a></p>
             </div>
         </div>
         <div class="card">
             <div class="card-body">
-                <h3>Activity Department</h3>
-                <p><strong>Activity hours:</strong></p>
+                <h3 id="activityDepartmentTitle"><strong>Activity Department</strong></h3>
+                <p><strong id="activityHoursTitle">Activity hours:</strong></p>
                 <ul>
                     <li> 10am - 11am</li>
                     <li> 1pm - 2pm</li>
                     <li> 4pm - 5pm</li>
                 </ul>
-                <p><strong>Email:</strong><a href="mailto:Activity@JurassicParkZoo.com">
-                        Activity@JurassicParkZoo.com</a></p>
-                <p><strong>Phone Number:</strong><a href="tel:077 432 32 51"> 077 432 32 51</a></p>
+                <p><strong id="activityEmailTitle">Email:</strong><a href="mailto:Activity@JurassicParkZoo.com"
+                        id="activityEmailLink"> Activity@JurassicParkZoo.com</a></p>
+                <p><strong id="activityPhoneNumberTitle">Phone Number:</strong><a href="tel:077 432 32 51"
+                        id="activityPhoneNumberLink"> 077 432 32 51</a></p>
             </div>
         </div>
         <div class="card">
             <div class="card-body">
-                <h3>Veterinarian Centre</h3>
-                <p><strong>Opening hours:</strong> 10am - 5pm</p>
-                <p><strong>Email:</strong><a href="mailto:Veterinarian@JurassicParkZoo.com">
-                        Veterinarian@JurassicParkZoo.com</a></p>
-                <p><strong>Phone Number:</strong><a href="tel:077 432 32 52"> 077 432 32 52</a></p>
+                <h3 id="veterinarianCentreTitle"><strong>Veterinarian Centre</strong></h3>
+                <p><strong id="vetOpeningHoursTitle">Opening hours:</strong> 10am - 5pm</p>
+                <p><strong id="vetEmailTitle">Email:</strong><a href="mailto:Veterinarian@JurassicParkZoo.com"
+                        id="vetEmailLink"> Veterinarian@JurassicParkZoo.com</a></p>
+                <p><strong id="vetPhoneNumberTitle">Phone Number:</strong><a href="tel:077 432 32 52"
+                        id="vetPhoneNumberLink"> 077 432 32 52</a></p>
             </div>
         </div>
         <div class="card">
             <div class="card-body">
-                <h3>Child Care</h3>
-                <p><strong>Opening hours:</strong>
-                <p><strong>Email:</strong><a href="mailto:ChildCare@JurassicParkZoo.com">
-                        ChildCare@JurassicParkZoo.com</a></p>
-                <p><strong>Phone Number:</strong><a href="tel:077 432 32 53"> 077 432 32 53</a></p>
+                <h3 id="childCareTitle"><strong>Child Care</strong></h3>
+                <p><strong id="childCareOpeningHoursTitle">Opening hours:</strong> 9am - 6pm</p>
+                <p><strong id="childCareEmailTitle">Email:</strong><a href="mailto:ChildCare@JurassicParkZoo.com"
+                        id="childCareEmailLink"> ChildCare@JurassicParkZoo.com</a></p>
+                <p><strong id="childCarePhoneNumberTitle">Phone Number:</strong><a href="tel:077 432 32 53"
+                        id="childCarePhoneNumberLink"> 077 432 32 53</a></p>
             </div>
         </div>
     </footer>
     <script src="about_animation.js"></script>
+    <script src="about_translation.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
-    <script>
-        var historyText = document.getElementById('historyText');
-        var aboutText = document.getElementById('aboutText');
-        var homeLink = document.getElementById('homeLink');
-        var aboutLink = document.getElementById('aboutLink');
-        var animalsLink = document.getElementById('animalsLink');
-        var contactLink = document.getElementById('contactLink');
-        var dropdownToggle = document.getElementById('navbarDropdown');
-
-        var englishHistory = "Jurassic Park is a theme park and dinosaur attraction located on Isla Nublar, a fictional island off the coast of Costa Rica. Founded by billionaire philanthropist John Hammond, the park was designed to showcase genetically engineered dinosaurs cloned from prehistoric DNA.";
-        var englishAbout = "At Jurassic Park, visitors can embark on a journey through time to experience the wonders of the Mesozoic Era. From towering Brachiosaurus to fearsome Tyrannosaurus rex, our park offers an unparalleled opportunity to witness these ancient creatures in a safe and controlled environment. With state-of-the-art facilities and expert staff, Jurassic Park is committed to providing an unforgettable experience for guests of all ages. Join us as we explore the mysteries of the past and discover the awe-inspiring world of dinosaurs.";
-        var frenchHistory = "Jurassic Park est un parc à thème et une attraction de dinosaures situé sur Isla Nublar, une île fictive au large de la côte du Costa Rica. Fondé par le milliardaire philanthrope John Hammond, le parc a été conçu pour présenter des dinosaures génétiquement modifiés clonés à partir d'ADN préhistorique.";
-        var frenchAbout = "Au Jurassic Park, les visiteurs peuvent embarquer pour un voyage à travers le temps pour découvrir les merveilles de l'ère mésozoïque. Du majestueux Brachiosaure au redoutable Tyrannosaurus rex, notre parc offre une opportunité incomparable de voir ces créatures anciennes dans un environnement sûr et contrôlé. Avec des installations ultramodernes et un personnel expert, Jurassic Park s'engage à offrir une expérience inoubliable aux visiteurs de tous âges. Rejoignez-nous alors que nous explorons les mystères du passé et découvrons le monde impressionnant des dinosaures.";
-        var germanHistory = "Der Jurassic Park ist ein Themenpark und eine Dinosaurierattraktion auf Isla Nublar, einer fiktiven Insel vor der Küste von Costa Rica. Gegründet vom Milliardär und Philanthropen John Hammond, wurde der Park entworfen, um genetisch veränderte Dinosaurier zu präsentieren, die aus prähistorischer DNA geklont wurden.";
-        var germanAbout = "Im Jurassic Park können Besucher eine Reise durch die Zeit unternehmen, um die Wunder des Mesozoikums zu erleben. Vom majestätischen Brachiosaurus bis zum furchterregenden Tyrannosaurus rex bietet unser Park eine unvergleichliche Möglichkeit, diese urzeitlichen Kreaturen in einer sicheren und kontrollierten Umgebung zu sehen. Mit hochmodernen Einrichtungen und erfahrenem Personal ist der Jurassic Park bestrebt, Gästen jeden Alters ein unvergessliches Erlebnis zu bieten. Begleiten Sie uns, während wir die Geheimnisse der Vergangenheit erkunden und die beeindruckende Welt der Dinosaurier entdecken.";
-        var spanishHistory = "Jurassic Park es un parque temático y una atracción de dinosaurios ubicada en Isla Nublar, una isla ficticia frentea la costa de Costa Rica. Fundado por el multimillonario filántropo John Hammond, el parque fue diseñado para exhibir dinosaurios genéticamente modificados clonados a partir de ADN prehistórico.";
-        var spanishAbout = "En Jurassic Park, los visitantes pueden embarcarse en un viaje a través del tiempo para experimentar las maravillas de la era mesozoica. Desde el imponente Brachiosaurus hasta el temible Tyrannosaurus rex, nuestro parque ofrece una oportunidad incomparable para presenciar estas antiguas criaturas en un ambiente seguro y controlado. Con instalaciones de última generación y personal experto, Jurassic Park se compromete a brindar una experiencia inolvidable para los huéspedes de todas las edades. Únase a nosotros mientras exploramos los misterios del pasado y descubrimos el mundo impresionante de los dinosaurios.";
-
-        function changeLanguage(language) {
-            if (language === 'english') {
-                historyText.innerText = englishHistory;
-                aboutText.innerText = englishAbout;
-                dropdownToggle.innerText = 'English';
-                homeLink.innerText = 'Home';
-                aboutLink.innerText = 'About';
-                animalsLink.innerText = 'Animals';
-                contactLink.innerText = 'Contact';
-            } else if (language === 'french') {
-                historyText.innerText = frenchHistory;
-                aboutText.innerText = frenchAbout;
-                dropdownToggle.innerText = 'Français';
-                homeLink.innerText = 'Accueil';
-                aboutLink.innerText = 'À propos';
-                animalsLink.innerText = 'Animaux';
-                contactLink.innerText = 'Contact';
-            } else if (language === 'german') {
-                historyText.innerText = germanHistory;
-                aboutText.innerText = germanAbout;
-                dropdownToggle.innerText = 'Deutsch';
-                homeLink.innerText = 'Startseite';
-                aboutLink.innerText = 'Über uns';
-                animalsLink.innerText = 'Tiere';
-                contactLink.innerText = 'Kontakt';
-            } else if (language === 'spanish') {
-                historyText.innerText = spanishHistory;
-                aboutText.innerText = spanishAbout;
-                dropdownToggle.innerText = 'Español';
-                homeLink.innerText = 'Inicio';
-                aboutLink.innerText = 'Sobre nosotros';
-                animalsLink.innerText = 'Animales';
-                contactLink.innerText = 'Contacto';
-            }
-        }
-    </script>
 
 </body>
 
