@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zoo Jurassic Park</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="animals_Layout.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="Images/Jurassic_Park_Zoo_Logo.jpeg" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-black">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a id="homeLink" class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="aboutLink" class="nav-link" href="../About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="animalsLink" class="nav-link active" aria-current="page"
+                                href="../Animals.html">Animals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="contactLink" class="nav-link" href="../Contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                English
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#" onclick="changeLanguage('english')">English</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeLanguage('french')">Français</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeLanguage('german')">Deutsch</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#" onclick="changeLanguage('spanish')">Español</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <img id="main_Image" src="../Oscip//Images/Animals/Stegosaurus.jpg" class="card-img-top"
+            alt="This Photo is not available.">
+        <h1 id="title">Stegosaurus</h1>
+        <p id="description">The Stegosaurus, with its distinctive array of bony plates and spiked tail, stands as a
+            testament to the incredible diversity of life that flourished during the Late Jurassic period, approximately
+            155 to 150 million years ago. This iconic dinosaur, known for its unique appearance and gentle demeanor,
+            roamed the ancient forests of what is now North America, leaving an indelible mark on the prehistoric world.
+
+            At first glance, the Stegosaurus cuts a striking figure, with its large size and distinctive armor-like
+            plates adorning its back. Measuring up to 30 feet in length and weighing several tons, this herbivorous
+            behemoth was one of the largest land animals of its time. Its most prominent feature, however, was its
+            double row of alternating bony plates, which ran along its back from neck to tail.
+
+            But it wasn't just its plates that made the Stegosaurus stand out—it was also its formidable tail, adorned
+            with a series of sharp spikes known as thagomizers. These bony protrusions, ranging in size from small to
+            large, served as defensive weapons against would-be predators and rival individuals, delivering devastating
+            blows to any who dared to challenge this gentle giant.
+
+            Despite its impressive defensive arsenal, the Stegosaurus was primarily a peaceful herbivore, subsisting on
+            a diet of low-lying vegetation such as ferns, cycads, and conifers. Its small, peg-like teeth were
+            well-suited for cropping and grinding tough plant material, allowing it to extract maximum nutrition from
+            its herbivorous diet.
+
+            Yet, despite its docile nature, the Stegosaurus was not without its own challenges. Like all dinosaurs, it
+            faced threats from predators such as Allosaurus and Ceratosaurus, which prowled the ancient forests in
+            search of prey. Fossil evidence suggests that Stegosaurus may have engaged in defensive behaviors such as
+            herding or tail-whipping to deter would-be attackers and protect vulnerable members of its herd.
+
+            Despite its formidable appearance and defensive capabilities, the Stegosaurus met its demise with the
+            changing tides of prehistory. Like all dinosaurs, its reign came to an end with the cataclysmic events that
+            culminated in the mass extinction event 66 million years ago. Yet, despite its extinction, the Stegosaurus
+            lives on in the collective imagination as a symbol of prehistoric majesty and resilience, a reminder of the
+            incredible diversity of life that once thrived on our planet.
+        </p>
+    </section>
+    <footer>
+        <div class="card">
+            <div class="card-body">
+                <h3 id="zooDepartmentTitle"><strong>Zoo Department</strong></h3>
+                <p><strong id="zooOpeningHoursTitle">Opening hours:</strong> 8am - 8pm</p>
+                <p><strong id="zooEmailTitle">Email:</strong><a href="mailto:JurassicParkZoo@gmail.com"
+                        id="zooEmailLink"> Zoo@JurassicParkZoo.com</a></p>
+                <p><strong id="zooPhoneNumberTitle">Phone Number:</strong><a href="tel:0774323250"
+                        id="zooPhoneNumberLink"> 077 432 32 50</a></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h3 id="activityDepartmentTitle"><strong>Activity Department</strong></h3>
+                <p><strong id="activityHoursTitle">Activity hours:</strong></p>
+                <ul>
+                    <li> 10am - 11am</li>
+                    <li> 1pm - 2pm</li>
+                    <li> 4pm - 5pm</li>
+                </ul>
+                <p><strong id="activityEmailTitle">Email:</strong><a href="mailto:Activity@JurassicParkZoo.com"
+                        id="activityEmailLink"> Activity@JurassicParkZoo.com</a></p>
+                <p><strong id="activityPhoneNumberTitle">Phone Number:</strong><a href="tel:0774323251"
+                        id="activityPhoneNumberLink"> 077 432 32 51</a></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h3 id="veterinarianCentreTitle"><strong>Veterinarian Centre</strong></h3>
+                <p><strong id="vetOpeningHoursTitle">Opening hours:</strong> 10am - 5pm</p>
+                <p><strong id="vetEmailTitle">Email:</strong><a href="mailto:Veterinarian@JurassicParkZoo.com"
+                        id="vetEmailLink"> Veterinarian@JurassicParkZoo.com</a></p>
+                <p><strong id="vetPhoneNumberTitle">Phone Number:</strong><a href="tel:0774323252"
+                        id="vetPhoneNumberLink"> 077 432 32 52</a></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h3 id="childCareTitle"><strong>Child Care</strong></h3>
+                <p><strong id="childCareOpeningHoursTitle">Opening hours:</strong> 9am - 6pm</p>
+                <p><strong id="childCareEmailTitle">Email:</strong><a href="mailto:ChildCare@JurassicParkZoo.com"
+                        id="childCareEmailLink"> ChildCare@JurassicParkZoo.com</a></p>
+                <p><strong id="childCarePhoneNumberTitle">Phone Number:</strong><a href="tel:0774323253"
+                        id="childCarePhoneNumberLink"> 077 432 32 53</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="animals_animations.js"></script>
+    <script src="animals_translation.js"></script>
+</body>
+
+</html>

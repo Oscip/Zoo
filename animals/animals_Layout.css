@@ -1,0 +1,105 @@
+/* Navbar Configuration*/
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-item {
+    width: 23%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+.dropdown-menu {
+    margin: 35%;
+    min-width: auto;
+}
+
+.dropdown-item {
+    width: auto;
+    white-space: nowrap;
+}
+
+/* Body */
+body {
+    background-color: #000000;
+}
+
+/* Text */
+#title {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+#description {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    width: 75rem;
+    color: #ffffff;
+}
+
+/* Images */
+
+#main_Image {
+    width: 100%;
+    height: 50rem;
+}
+
+/* Footer */
+
+footer {
+    background-color: #000435;
+    color: #ffffff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Footer Cards*/
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .card {
+    width: 350px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+footer .card h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+.card a {
+    color: #3888ff;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
