@@ -17,11 +17,14 @@ body {
 #recently {
   border-radius: 10px;
   padding: 20px;
-  margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.5s, transform 0.5s;
+}
+
+#recently2 {
+  margin-bottom: 10rem;
 }
 
 #recently.show {
@@ -30,13 +33,13 @@ body {
 }
 
 .card-body .card {
-  min-width: 1000px;
-  max-width: 1000px;
+  min-width: 100%;
+  max-width: 100%;
 }
 
 .card-img-top {
-  max-height: 150px;
-  min-height: 150px;
+  max-height: 10rem;
+  min-height: 10rem;
 }
 
 #Entrance_Image {
@@ -45,7 +48,6 @@ body {
 }
 
 .recently .card {
-  max-height: 40%;
   background-color: rgb(255, 255, 255);
   border-color: black;
 }
