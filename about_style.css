@@ -124,37 +124,37 @@ footer .card h3 {
 }
 
 .navbar-toggler-icon {
-    background-color: white !important;
-    border-radius: 10px;
+    background-color: grey;
+    border-radius: 7.5px;
+    border: 2px solid grey !important;
 }
 
 .navbar-nav {
     display: flex;
-    /* Use Flexbox */
     justify-content: space-between;
-    /* Evenly space the items */
     width: 100%;
-    /* Ensure the navbar items span the entire width */
 }
 
 .nav-item {
     width: 23%;
-    /* Set a fixed width for each navbar item */
     text-align: center;
-    /* Center-align the text */
     white-space: nowrap;
-    /* Prevent text from wrapping */
 }
 
 
 .dropdown-menu {
     margin: 35%;
-    min-width: auto;
+    min-width: 75%;
 }
 
 .dropdown-item {
     width: auto;
     white-space: nowrap;
+}
+
+.dropdown-menu show {
+    width:100%;
+    background-color: white;
 }
 
 main {

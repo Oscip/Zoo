@@ -4,6 +4,12 @@
     color: white !important;
 }
 
+.navbar-toggler-icon {
+    background-color: grey;
+    border-radius: 7.5px;
+    border: 2px solid grey !important;
+}
+
 .navbar-nav {
     display: flex;
     justify-content: space-between;
@@ -19,7 +25,7 @@
 
 .dropdown-menu {
     margin: 35%;
-    min-width: auto;
+    min-width: 75%;
 }
 
 .dropdown-item {

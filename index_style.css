@@ -1,13 +1,11 @@
 /* Images */
 header {
   background-color: #000435;
-  /* Set opacity for the navbar */
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
-  /* Ensure the navbar is above other content */
 }
 
 body {
@@ -98,33 +96,34 @@ footer .card h3 {
 .card a:hover {
   text-decoration: underline;
 }
+/* Navigation Bar*/
 
 .nav-link {
   color: white !important;
 }
 
+.navbar-toggler-icon {
+  background-color: grey;
+  border-radius: 7.5px;
+  border: 2px solid grey !important;
+}
+
 .navbar-nav {
   display: flex;
-  /* Use Flexbox */
   justify-content: space-between;
-  /* Evenly space the items */
   width: 100%;
-  /* Ensure the navbar items span the entire width */
 }
 
 .nav-item {
   width: 23%;
-  /* Set a fixed width for each navbar item */
   text-align: center;
-  /* Center-align the text */
   white-space: nowrap;
-  /* Prevent text from wrapping */
 }
 
 
 .dropdown-menu {
   margin: 35%;
-  min-width: auto;
+  min-width: 75%;
 }
 
 .dropdown-item {
@@ -139,18 +138,13 @@ footer .card h3 {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 60%;
-  /* Adjust the width as needed */
   height: 15%;
-  /* Adjust the height as needed */
   background-color: rgba(255, 255, 255, 0.6);
-  /* Semi-transparent white */
   border-radius: 20px;
-  /* Adjust the border-radius for rounded corners */
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1;
-  /* Ensure the overlay is above the image */
 }
 
 .overlay h1 {
