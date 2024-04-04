@@ -118,8 +118,14 @@ footer .card h3 {
 }
 
 /*Navbar Configuration*/
+
 .nav-link {
     color: white !important;
+}
+
+.navbar-toggler-icon {
+    background-color: white !important;
+    border-radius: 10px;
 }
 
 .navbar-nav {
