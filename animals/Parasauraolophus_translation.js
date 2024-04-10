@@ -1,5 +1,7 @@
 
 function changeLanguage(language) {
+    const title = document.getElementById('title');
+    const description = document.getElementById('description');
     const homeLink = document.getElementById('homeLink');
     const aboutLink = document.getElementById('aboutLink');
     const animalsLink = document.getElementById('animalsLink');
@@ -9,6 +11,11 @@ function changeLanguage(language) {
     // Translations
     const translations = {
         'english': {
+            'title': 'Ankylosaurus',
+            'description': `The Ankylosaurus, with its armored body and club-like tail, emerges as one of the most
+                formidable and iconic dinosaurs of the Late Cretaceous period, approximately 68 to 66 million years ago.
+                This tank-like herbivore, known for its distinctive appearance and defensive adaptations, roamed the
+                ancient landscapes of what is now North America, leaving an indelible mark on the prehistoric world.`,
             'dropdownToggle': 'English',
             'homeLink': 'Home',
             'aboutLink': 'About',
@@ -32,6 +39,8 @@ function changeLanguage(language) {
             'childCarePhoneNumberTitle': 'Phone Number:'
         },
         'french': {
+            'title': 'Ankylosaure',
+            'description': `L'Ankylosaure, avec son corps blindé et sa queue en forme de massue, émerge comme l'un des dinosaures les plus redoutables et emblématiques du Crétacé tardif, il y a environ 68 à 66 millions d'années. Cet herbivore de type char, connu pour son apparence distinctive et ses adaptations défensives, a parcouru les paysages anciens de ce qui est aujourd'hui l'Amérique du Nord, laissant une marque indélébile sur le monde préhistorique.`,
             'dropdownToggle': 'Français',
             'homeLink': 'Accueil',
             'aboutLink': 'À propos',
@@ -55,6 +64,8 @@ function changeLanguage(language) {
             'childCarePhoneNumberTitle': 'Numéro de téléphone :'
         },
         'german': {
+            'title': 'Ankylosaurus',
+            'description': `Der Ankylosaurus, mit seinem gepanzerten Körper und seinem keulenartigen Schwanz, gehört zu den imposantesten und ikonischsten Dinosauriern des späten Kreidezeitalters, vor etwa 68 bis 66 Millionen Jahren. Dieser panzerartige Pflanzenfresser, bekannt für sein markantes Aussehen und seine defensiven Anpassungen, durchstreifte die alten Landschaften dessen, was heute Nordamerika ist, und hinterließ einen unauslöschlichen Eindruck in der prähistorischen Welt.`,
             'dropdownToggle': 'Deutsch',
             'homeLink': 'Startseite',
             'aboutLink': 'Über uns',
@@ -78,6 +89,8 @@ function changeLanguage(language) {
             'childCarePhoneNumberTitle': 'Telefonnummer:'
         },
         'spanish': {
+            'title': 'Anquilosaurio',
+            'description': `El Anquilosaurio, con su cuerpo blindado y su cola en forma de maza, emerge como uno de los dinosaurios más formidables e icónicos del período Cretácico tardío, aproximadamente hace 68 a 66 millones de años. Este herbívoro tipo tanque, conocido por su apariencia distintiva y adaptaciones defensivas, deambulaba por los paisajes antiguos de lo que hoy es América del Norte, dejando una marca indeleble en el mundo prehistórico.`,
             'dropdownToggle': 'Español',
             'homeLink': 'Inicio',
             'aboutLink': 'Sobre nosotros',
@@ -101,6 +114,8 @@ function changeLanguage(language) {
             'childCarePhoneNumberTitle': 'Número de teléfono:'
         }
     };
+    title.innerText = translations[language]['title'];
+    description.innerText = translations[language]['description'];
     dropdownToggle.innerText = translations[language]['dropdownToggle'];
     homeLink.innerText = translations[language]['homeLink'];
     aboutLink.innerText = translations[language]['aboutLink'];
